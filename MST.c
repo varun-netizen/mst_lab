@@ -4,6 +4,7 @@ int main()
 {
     int n, diff, num_b, num_g, p, q;
     float boys_p, girls_p;
+    printf("Enter the ratio of boys to girls as p/q");
     printf("Enter p :  \n");
     scanf("%d", &p);
     printf("Enter q :  \n");

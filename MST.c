@@ -16,8 +16,8 @@ int main()
     num_g =  n - num_b;
 
     diff = num_b - num_g;
-    boys_p = num_b * 100/n;
-    girls_p  = 100 - boys_p;
+    boys_p = (float)num_b * 100/(float)n;
+    girls_p  = 100 - (float)boys_p;
 
 
 
